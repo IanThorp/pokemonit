@@ -1,11 +1,11 @@
-require "pokemonit/gem/version"
+require "pokemonit/version"
 require "unirest"
 
 module Pokemon
   class Damage
     attr_reader :name
     def initialize(options)
-      @name = options["name"]
+      @name = options[:name]
     end
 
     def self.all
