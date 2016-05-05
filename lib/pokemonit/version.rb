@@ -1,3 +1,3 @@
-module Pokemonit
-  VERSION = "0.1.0"
+class Pokemonit
+  VERSION = "0.1.2"
 end

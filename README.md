@@ -22,7 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Type
+'''ruby
+Pokemon::Damage('jigglypuff')
+'''
+
+and this will return an hash with the pokemon's name, types, weaknesses, and strengths.
 
 ## Development
 

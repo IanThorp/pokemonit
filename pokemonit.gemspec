@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ian Thorp"]
   spec.email         = ["IanMThorp@gmail.com"]
 
-  spec.summary       = %q{my summary}
-  spec.description   = %q{my description}
-  spec.homepage      = "http://mysite.com"
+  spec.summary       = %q{Finding Pokemon details}
+  spec.description   = %q{This gem lets you find a pokemon's weaknesses and strengths}
+  spec.homepage      = "https://github.com/IanThorp/pokemonit"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split("\n")
